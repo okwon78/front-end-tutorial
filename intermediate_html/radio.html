@@ -7,8 +7,31 @@
     <title>Document</title>
 </head>
 <body>
+    <h6>Do you prefer cats or dags?</h6>
     <form>
-        <input type="radio">
+        <div>
+            <label for="dog">Dogs</label>
+            <input name=petChoice id="dog" type="radio" value="dog" required>
+        </div>
+        <div>
+            <label for="cat">Cats</label>
+            <input name=petChoice id="cat" type="radio" value="cat" required>
+        </div>
+        
+        <div>
+            <h7>What's your favorite color?</h7>
+            <select name="color">
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+                <option value="orange">Orange</option>
+            </select>
+        </div>
+        <div>
+            <textarea rows=50, cols=20 placeholder="review"></textarea>
+        </div>
+        <div>
+            <button>Go!</button>
+        </div>
     </form>
 </body>
 </html>
