@@ -1,0 +1,24 @@
+body {
+    background: gray;
+}
+
+div {
+    border: 2px orange solid;
+}
+
+#first {
+    background: green;
+}
+
+#second {
+    background: red;
+}
+
+#third {
+    background: blue;
+}
+
+.hightlight {
+    background: yellow;
+    text-decoration: line-through;
+}
